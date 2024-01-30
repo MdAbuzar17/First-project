@@ -213,7 +213,6 @@ span {
     
 }
 
-
 .box-content {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -227,37 +226,9 @@ h2{
     font-size: 1.4rem;
 }
 
-/** book **/
-/* .book {
-    margin: 1rem 1rem 1rem 1.5rem;
-    background-color:white;
-    height: 300px;
-    width: 97%;
-}
+/** books and vedios **/
 
-.heading {
-    display: flex;
-}
-
-.heading a{
-    padding-left: 10px;
-    text-decoration: none;
-    color: #007185;
-}
-
-.book1 {
-    height: 250px;
-    width: 20%;
-    background-size: cover;
-}
-
-.book-container {
-    height: 26px;
-    width: 21%;
-    display: flex;
-} */
-
-.books {
+.books{
     padding-top: 20px;
     padding-bottom: 20px; 
     margin-top: 30px;
@@ -287,7 +258,40 @@ h2{
     max-width: 250px;
     max-height: 250px;
 }
+
+.vedios{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    width: 96.7%;
+}
   
+.vedio-anchor {
+    text-decoration: none;
+    color: #007185;
+}
+
+.vedio-anchor:hover {
+    color:  rgb(255, 153, 0);
+    text-decoration: underline;
+}
+
+.vedio-play {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+  
+.vedio-play img {
+    max-width: 250px;
+    max-height: 250px;
+}
+  
+
+
 
 /** footer **/
 footer {
@@ -312,7 +316,7 @@ footer {
 .foot-panel2 {
     background-color: #222f3d;
     color: white;
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -324,9 +328,13 @@ ul {
 ul a{
     display: block;
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 7px;
     color: #dddddd;
     text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
 }
 
 /** foot-panel3 **/
